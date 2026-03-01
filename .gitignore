@@ -1,0 +1,25 @@
+# Env and secrets
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+
+# Build
+dist/
+*.tsbuildinfo
+
+# Demo / user data (do not commit)
+Timeline.json
+TimelinePlaceCache.json
+public/Timeline.json
+public/TimelinePlaceCache.json
+location-history-*.json
+jsons/
+
+# Misc
+.DS_Store
+*.log
+temporary screenshots/
+screenshots/
